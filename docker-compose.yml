@@ -1,0 +1,4 @@
+node:
+  build: .
+  command: npm start
+  working_dir: /home/app/src
