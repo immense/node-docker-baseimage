@@ -7,7 +7,7 @@ RUN apt-get update
 RUN apt-get upgrade -y
 
 # Build Tools
-RUN apt-get install -y build-essential zlib1g-dev libssl-dev libreadline6-dev libyaml-dev
+RUN apt-get install -y build-essential zlib1g-dev libssl-dev libreadline6-dev libyaml-dev python
 
 ## Utilities & nginx
 RUN apt-get install -y make wget tar git curl gcc libpcre3-dev libssl-dev
